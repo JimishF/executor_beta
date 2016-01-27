@@ -1,0 +1,96 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Code execution</title>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/css/materialize.min.css"/>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/js/materialize.min.js"></script>
+          
+
+<script type="text/javascript" name="menueBar span controls" src="./jimx/jimx_menubar_controls.js"></script>
+<script type="text/javascript" name="menubar_saveOffline_control" src="./jimx/jimx_offlineSave_support.js"></script>
+<script type="text/javascript" name="unload_script" src="./jimx/jimx_unload_support.js"></script>
+
+<!---->
+
+<link rel="stylesheet" href="./lib/codemirror.css">
+<link rel="stylesheet" href="./addon/fold/foldgutter.css">
+<link rel="stylesheet" href="./addon/dialog/dialog.css">
+<link rel="stylesheet" href="./theme/monokai.css">
+
+<!--link rel="stylesheet" href="./theme/eclipse.css"-->
+<link rel="stylesheet" href="./addon/hint/show-hint.css">
+<link rel="stylesheet" href="./lib/view_dashboard.css">
+
+
+<script src="./lib/codemirror.js"></script>
+
+<script src="./addon/search/searchcursor.js"></script>
+<script src="./addon/search/search.js"></script>
+<script src="./addon/dialog/dialog.js"></script>
+
+<script src="./addon/edit/matchbrackets.js"></script>
+<script src="./addon/edit/closebrackets.js"></script>
+<script src="./addon/comment/comment.js"></script>
+<script src="./addon/wrap/hardwrap.js"></script>
+<script src="./addon/fold/foldcode.js"></script>
+
+<script src="./addon/hint/show-hint.js"></script>
+<script src="./addon/hint/html-hint.js"></script>
+<script src="./addon/hint/javascript-hint.js"></script>
+<script src="./addon/hint/html-hint.js"></script>
+<script src="./addon/hint/xml-hint.js"></script>
+<script src="./addon/hint/css-hint.js"></script>
+
+
+<script src="./addon/fold/brace-fold.js"></script>
+<script src="./mode/javascript/javascript.js"></script>
+<script src="./mode/css/css.js"></script>
+<script src="./mode/vbscript/vbscript.js"></script>
+<script src="./mode/xml/xml.js"></script>
+<script src="./mode/htmlmixed/htmlmixed.js"></script>
+<script src="./keymap/sublime.js"></script>
+<style type="text/css">
+  .CodeMirror {border-top: 1px solid #eee; min-width:400px; 
+  	border-bottom: 1px solid #eee; line-height: 1.3; height: 500px;}
+  .CodeMirror-linenumbers { padding: 0 8px; }
+</style>
+<!---->
+
+
+</head>
+
+<body>
+<body>
+  <nav class=" deep-purple">
+    <div class="nav-wrapper">
+      <a class="brand-logo" style="padding-left:10px">CodeStudy Executer</a>
+      
+      
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a href id="executeMenuSpan" name="execute" >Execute >></a></li>
+        <li><a href id="resetMenuSpan">Reset</a></li>
+        <li><a href id="saveMenueSpan">Save to local</a></li>
+      </ul>
+
+    </div>
+  </nav>
+
+
+ <br>
+ <div>
+	<div id="bodyContainer"class="row">
+		<div id="txtArea" class="col s12 m6" placeHolder="Type code here"></div>	
+		<iframe id="execution" class="col s12 m6" name="execution" scrolling="yes" title="execution" ></iframe>
+	</div>
+</div>
+
+<script src="./jimx/initeditor.js"></script>
+</article>	
+</body>
+</html>

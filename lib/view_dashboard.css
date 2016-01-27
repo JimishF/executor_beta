@@ -1,0 +1,12 @@
+
+iframe {
+	height: 500px;
+	width: 100%;
+  	padding:10px;
+  	
+  	-moz-border-radius: 8px;
+  	-webkit-border-adius: 8px; 
+  	border-radius: 8px; 
+	background-color:#FFFFFF;
+	border: 1px solid #CCC;
+}
